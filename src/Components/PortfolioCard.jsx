@@ -1,14 +1,27 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect';
 
 const PortfolioCard = () => {
   return (
-    <div className='px-5 lg:p-5 text-white w-[80vw] lg:w-[30vw] backdrop-blur-2xl  select-none rounded-2xl my-20 lg:my-[200px] lg:shadow-gray-900 shadow-gray-700 hover:border-gray-200 hover:scale-110 transition-all delay-100  shadow-lg
-    '>
-        <h3 className='text-3xl lg:text-6xl font pt-3 border-2 border-transparent border-b-gray-300'>Portfolio*</h3>
-        <h3>Bhogeshwar Jadhav</h3>
+    <div className='px-5  text-white w-[80vw] backdrop-blur-2xl  select-none rounded-2xl my-10 shadow-gray-900  hover:border-gray-200 hover:scale-110 transition-all delay-100  shadow-lg'>
 
+    <div className=''>
+    <h3 className='flex  text-3xl font-bold pt-3 border-2 border-transparent border-b-gray-300'> I'm&nbsp;
+     <Typewriter
+  options={{
+      strings: ['FrontEnd Developer .', 'Backend Developer .' ,'Software Engineer .' , 'Cloud Engineer .','Devops Engineer .'],
+      autoStart: true,
+      loop: true,
+    }}
+/>
+</h3>
     </div>
-  )
+
+      <h3 className="text-xl py-3">Computer Engineer</h3>
+    
+    </div>
+    )
 }
+
 
 export default PortfolioCard

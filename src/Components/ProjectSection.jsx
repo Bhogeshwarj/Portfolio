@@ -1,6 +1,6 @@
 import React from "react";
-// import ProjectCard from "./ProjectCard";
-// import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
+import ProjectCard from "./ProjectCard";
+import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 import { useRef } from "react";
 
 const ProjectSection = () => {
