@@ -5,6 +5,7 @@ import About from '../Components/About'
 import SkillSection from '../Components/SkillSection'
 import ProjectSection from '../Components/ProjectSection'
 import Navbar from '../Components/Navbar'
+import Contact from '../Components/Contact'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <About />
         <SkillSection />
         <ProjectSection />
+        <Contact />
     </div>
     </div>
   )
