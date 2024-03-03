@@ -3,7 +3,7 @@ import { FaGithub, FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const ContactMe = () => {
   return (
-    <div className="w-full flex flex-col items-center text-center py-8">
+    <div data-aos = "fade-up" className="w-full flex flex-col items-center text-center py-8">
       <h2 className="text-3xl gradient-text font-bold mb-4">Contact Me</h2>
       <p className="text-gray-300 mb-6">
         Feel free to reach out and connect with me on social media or drop me an email. I'd love to hear from you!
