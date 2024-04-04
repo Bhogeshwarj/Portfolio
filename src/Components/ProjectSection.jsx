@@ -14,7 +14,7 @@ const ProjectSection = () => {
     scrollRef.current.scrollLeft -= 500;
   };
   return (
-    <div data-aos="fade-down" className="mb-20 lg:mb-36">
+    <div data-aos="fade-right" className="mb-20 lg:mb-36">
       <h1 className="text-5xl lg:text-7xl gradient-text mb-10">My Projects</h1>
       <div
         ref={scrollRef}

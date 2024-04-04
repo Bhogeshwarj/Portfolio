@@ -1,10 +1,11 @@
 import React,{useState} from 'react'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-      <nav className="flex bg-black sticky bg-opacity-30 top-0 backdrop-filter backdrop-blur-sm items-center justify-between flex-wrap p-6 -mb-2">
+      <nav data-aos="fade-down" className="flex bg-black sticky bg-opacity-30 top-0 backdrop-filter backdrop-blur-sm items-center justify-between flex-wrap p-6 -mb-2">
         <div className="flex text-2xl items-center flex-shrink-0 font-bold mr-6 lg:mr-72 ">
           {/* <img src={locofy} className="w-100 h-10 mr-2" alt="Logo" /> */}Bhogeshwar Jadhav
         </div>
@@ -34,15 +35,37 @@ const Navbar = () => {
           className={`w-full block lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
         >
           <div className="text-sm lg:flex-grow">
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-3">
-              Services
-            </a>
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-3">
-              About Us
-            </a>
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-3">
-              Contact
-            </a>
+          <Link activeClass="active"
+      to="project"
+      spy={true}
+      smooth={true}
+      hashSpy={true}
+      offset={50}
+      duration={500}
+      delay={500}
+      isDynamic={true}
+      ignoreCancelEvents={false}
+      spyThrottle={500}
+       className="block cursor-pointer mt-4 lg:inline-block text-lg lg:mt-0 text-white-200 mr-5">
+                Projects
+      </Link>
+        
+            <Link smooth to="" className="block cursor-pointer mt-4 lg:inline-block text-lg lg:mt-0 text-white-200 mr-5">
+                Blogs
+            </Link>
+            <Link to="contact"
+      spy={true}
+      smooth={true}
+      hashSpy={true}
+      offset={50}
+      duration={500}
+      delay={500}
+      isDynamic={true}
+      ignoreCancelEvents={false}
+      spyThrottle={500}
+       className="block cursor-pointer mt-4 lg:inline-block text-lg lg:mt-0 text-white-200 mr-5">
+              Contact Me
+            </Link>
             {/* <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-0">
               Fourth Link
             </a> */}

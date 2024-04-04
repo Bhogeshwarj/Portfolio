@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin} from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 const ContactMe = () => {
   return (
@@ -19,7 +20,7 @@ const ContactMe = () => {
           <FaEnvelope size={24} />
         </a>
         <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer" className="text-white hover:text-slate-300 mx-2">
-          <FaTwitter size={24} />
+          <FaXTwitter size={24} />
         </a>
       </div>
       <p className="text-gray-500 mt-6">

@@ -7,6 +7,7 @@ import ProjectSection from '../Components/ProjectSection'
 import Navbar from '../Components/Navbar'
 import Contact from '../Components/Contact'
 import AOS from 'aos';
+import { Link } from 'react-scroll'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 // AOS.init();
@@ -20,15 +21,24 @@ const Home = () => {
     <div>
     <div>
 
+
     <Navbar className='z-[9999] sticky top-0' /> 
     </div>
-    <div className='w-[80vw] mx-auto '>
-        <PortfolioCard />
+    <div className=' w-[80vw] mx-auto '>
+        <PortfolioCard  />
         <HomeCard />
         <About />
         <SkillSection />
-        <ProjectSection />
-        <Contact />
+        <div id="project">
+
+        <ProjectSection  />
+        </div>
+        <div id="contact">
+
+        <Contact  />
+        </div>
+    
+      
     </div>
     </div>
   )

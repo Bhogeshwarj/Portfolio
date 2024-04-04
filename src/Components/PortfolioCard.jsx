@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 const PortfolioCard = () => {
   return (
-    <div data-aos="zoom-out-down" className='flex justify-center items-center '>
+    <div data-aos="zoom-out-down" className='flex justify-center items-center mt-8'>
       <div className='px-5 text-white w-full md:w-[80vw] lg:w-[60vw] backdrop-blur-2xl select-none rounded-2xl my-10 shadow-gray-900 hover:border-gray-200 hover:scale-110 transition-all delay-100 shadow-lg'>
         <h3 className='pb-2 flex flex-col md:flex-row md:items-center text-xl md:text-3xl lg:text-4xl font-bold pt-3 border-2 border-transparent border-b-gray-300'>
           <span className="mr-1.5">I'm</span>
