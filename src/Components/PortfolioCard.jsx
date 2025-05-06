@@ -26,7 +26,7 @@ const PortfolioCard = () => {
           {/* <span className="ml-auto flex "> */}
           <span className="flex items-center mt-2 md:ml-auto md:">
             <a
-              href="https://github.com/your-github-profile"
+              href="https://github.com/Bhogeshwarj"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-slate-300 mr-3"
@@ -34,7 +34,7 @@ const PortfolioCard = () => {
               <FaGithub size={20} />
             </a>
             <a
-              href="https://www.linkedin.com/in/your-linkedin-profile"
+              href="https://www.linkedin.com/in/bhogeshwarj"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-slate-300 mx-3"
