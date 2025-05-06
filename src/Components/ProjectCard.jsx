@@ -1,6 +1,5 @@
-import React from 'react'
-import {AiFillGithub} from 'react-icons/ai'
-import { RiSignalTowerFill} from 'react-icons/ri'
+import { AiFillGithub } from "react-icons/ai";
+import { RiSignalTowerFill } from "react-icons/ri";
 
 const ProjectCard = () => {
   return (
@@ -30,7 +29,7 @@ const ProjectCard = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;
